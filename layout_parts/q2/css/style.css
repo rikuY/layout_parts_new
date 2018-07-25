@@ -9,13 +9,10 @@
 
 .container {
   background-color: #eff3f4;
+  box-sizing: border-box;
   margin: 0 auto;
-  width: 900px;
+  width: 940px;
   padding: 20px;
-}
-
-.top-block {
-  float: left;
 }
 
 .top-block__img {
@@ -34,7 +31,4 @@
   margin:0 0 10px 20px;
 }
 
-.bottom-block {
-  float: right;
-}
 /* 回答はここに書いてね */

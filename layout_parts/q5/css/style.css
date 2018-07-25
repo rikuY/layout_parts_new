@@ -16,12 +16,12 @@
   height: 100px;
   line-height: 100px;
   text-align: center;
+  position: absolute;
   width: 100px;
 }
 
 .one {
   background-color: #ffefd3;
-  position: absolute;
   top: 40px;
   left: 200px;
 }
@@ -40,7 +40,6 @@
 
 .two {
   background-color: #7084de;
-  position: absolute;
   top: 120px;
   left: 280px;
   z-index: 1;
@@ -48,7 +47,6 @@
 
 .three {
   background-color: #d0ecea;
-  position: absolute;
   top: 200px;
   left: 360px;
   z-index: 2;
@@ -56,7 +54,6 @@
 
 .four {
   background-color: #8b7a5e;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 3;
@@ -64,7 +61,6 @@
 
 .five {
   background-color: #9fd6d2;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 4;
@@ -72,7 +68,6 @@
 
 .six {
   background-color: #fffee4;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 5;
@@ -80,7 +75,6 @@
 
 .seven {
   background-color: #deae70;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 6;
@@ -88,7 +82,6 @@
 
 .eight {
   background-color: #de70cf;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 7;

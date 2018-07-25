@@ -36,7 +36,7 @@
 
 /*display: inline-block*/
 .inline-block__container {
-  font-size: 0px;
+  font-size: 0;
 }
 
 .inline-block {
@@ -65,7 +65,7 @@
 
 /*固定・変動幅*/
 .bar__container {
-  font-size: 0px;
+  font-size: 0;
   overflow: hidden;
 }
 

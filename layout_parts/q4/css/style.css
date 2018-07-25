@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.container {
+  padding: 20px;
+}
+
 .bar {
   box-sizing: border-box;
   display: table;
-  padding: 20px;
   width: 100%;
 }
 
-.bar:first-child {
-  padding-bottom: 0;
+.bar:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .bar__column {
@@ -19,29 +22,29 @@
   vertical-align: middle;
 }
 
-.bar__topleft {
+.bar__top__left {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.bar__topcenter {
+.bar__top__center {
   background-color: #e0abd9;
 }
 
-.bar__topright {
+.bar__top__right {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.bar__bottomleft {
+.bar__bottom__left {
   background-color: #e5d32e;
 }
 
-.bar__bottomcenter {
+.bar__bottom__center {
   background-color: #ec8f93;
 }
 
-.bar__bottomright {
+.bar__bottom__right {
   background-color: #8fdcad;
   width: 500px;
 }

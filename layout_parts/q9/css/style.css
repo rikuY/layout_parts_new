@@ -20,7 +20,7 @@
 
 .image:hover + .mask {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
 }
 
@@ -30,15 +30,14 @@
   height: 100%;
   pointer-events: none;
   transition: 0.5s;
-  width: 500px;
+  width: 100%;
   position: absolute;
-  bottom: -100%;
+  top: 100%;
   left: 0;
-
 }
 
 .mask__text {
-  color: white;
+  color: #fff;
   font-size: 16px;
   line-height: 16px;
   padding: 20px;
